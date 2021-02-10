@@ -27,7 +27,7 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess === ManGun) {
     displayMessage(`Man with Gun`);
   } else {
-    displayMessage(`Retry Code`);
+    displayMessage(`Error Retry Code ⛔`);
   }
 });
 
