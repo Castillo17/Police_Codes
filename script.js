@@ -126,6 +126,102 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage(`Traffic light out at ___`);
   } else if (guess === 1051) {
     displayMessage(`Wrecker needed`);
+  } else if (guess === 1052) {
+    displayMessage(`Ambulance needed`);
+  } else if (guess === 1053) {
+    displayMessage(`Road blocked at ___`);
+  } else if (guess === 1054) {
+    displayMessage(`Livestock on highway`);
+  } else if (guess === 1055) {
+    displayMessage(`Intoxicated driver`);
+  } else if (guess === 1056) {
+    displayMessage(`Intoxicated pedestrian`);
+  } else if (guess === 1057) {
+    displayMessage(`Hit and run (F, PI, PD)`);
+  } else if (guess === 1058) {
+    displayMessage(`Direct Traffic`);
+  } else if (guess === 1059) {
+    displayMessage(`Convoy or escort`);
+  } else if (guess === 1060) {
+    displayMessage(`Squad in vicinity`);
+  } else if (guess === 1061) {
+    displayMessage(`Personnel in area`);
+  } else if (guess === 1062) {
+    displayMessage(`Reply to message`);
+  } else if (guess === 1063) {
+    displayMessage(`Prepare make written copy`);
+  } else if (guess === 1064) {
+    displayMessage(`Message for local delivery`);
+  } else if (guess === 1065) {
+    displayMessage(`Net message assignment`);
+  } else if (guess === 1066) {
+    displayMessage(`Message cancellation`);
+  } else if (guess === 1067) {
+    displayMessage(`Clear for net message`);
+  } else if (guess === 1068) {
+    displayMessage(`Dispatch information`);
+  } else if (guess === 1069) {
+    displayMessage(`Message received`);
+  } else if (guess === 1070) {
+    displayMessage(`Fire alarm`);
+  } else if (guess === 1071) {
+    displayMessage(`Advise nature of fire`);
+  } else if (guess === 1072) {
+    displayMessage(`Report progress on fire`);
+  } else if (guess === 1073) {
+    displayMessage(`Smoke report`);
+  } else if (guess === 1074) {
+    displayMessage(`Negative`);
+  } else if (guess === 1075) {
+    displayMessage(`In contact with`);
+  } else if (guess === 1076) {
+    displayMessage(`En Route ___`);
+  } else if (guess === 1077) {
+    displayMessage(`ETA (Estimated Time Arrival)`);
+  } else if (guess === 1078) {
+    displayMessage(`Need assistance`);
+  } else if (guess === 1079) {
+    displayMessage(`Notify coroner`);
+  } else if (guess === 1080) {
+    displayMessage(`Chase in progress`);
+  } else if (guess === 1081) {
+    displayMessage(`Breathalyzer report`);
+  } else if (guess === 1082) {
+    displayMessage(`Reserve lodging`);
+  } else if (guess === 1083) {
+    displayMessage('Work school crossing at ___');
+  } else if (guess === 1084) {
+    displayMessage(`If meeting ___ advise time`);
+  } else if (guess === 1085) {
+    displayMessage(`Delayed due to ___`);
+  } else if (guess === 1086) {
+    displayMessage(`Officer/Operator on duty`);
+  } else if (guess === 1087) {
+    displayMessage(`Pickup/distribute checks`);
+  } else if (guess === 1088) {
+    displayMessage(`Advise present telephone number of ___`);
+  } else if (guess === 1089) {
+    displayMessage(`Bomb threat`);
+  } else if (guess === 1090) {
+    displayMessage(`Bank alarm at ___`);
+  } else if (guess === 1091) {
+    displayMessage(`Pick up prisoner/subject`);
+  } else if (guess === 1092) {
+    displayMessage('Improperly parked vehicle');
+  } else if (guess === 1093) {
+    displayMessage(`Blockade`);
+  } else if (guess === 1094) {
+    displayMessage(`Drag racing`);
+  } else if (guess === 1095) {
+    displayMessage(`Prisoner/subject in custody`);
+  } else if (guess === 1096) {
+    displayMessage(`Mental subject`);
+  } else if (guess === 1097) {
+    displayMessage(`Check (test) signal`);
+  } else if (guess === 1098) {
+    displayMessage(`Prison/jail break`);
+  } else if (guess === 1099) {
+    displayMessage(`Records indicate wanted or stolen`);
   } else {
     displayMessage(`Error with code ⛔ (ex. 1041 or 101).`);
   }
