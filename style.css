@@ -113,3 +113,29 @@ h1 {
   height: 3rem;
   font-size: 1.7rem;
 }
+
+@media only screen and (max-width: 37.5em) {
+  header {
+    display: flex;
+  }
+
+  .reset {
+    padding: 1rem 1rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    padding-top: 5rem;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
