@@ -127,12 +127,12 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess === 1051) {
     displayMessage(`Wrecker needed`);
   } else {
-    displayMessage(`Error with code ⛔`);
+    displayMessage(`Error with code ⛔ (ex. 1041 or 101).`);
   }
 });
 
 document.querySelector('.reset').addEventListener('click', function () {
-  displayMessage(`Enter 10 Code (ex. 1041).`);
+  displayMessage(`Enter 10 Code (ex. 1041 or 101).`);
   document.querySelector('.guess').value = '';
   document.querySelector('.number').textContent = '?';
 });
