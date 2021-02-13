@@ -1,6 +1,6 @@
 'use strict';
 
-const caution = 1000;
+const caution = `10-00`;
 const unableToCopy = 1001;
 const signalGood = 1002;
 const accident = 1050;
@@ -17,7 +17,9 @@ const displayMessage = function (message) {
 };
 
 document.querySelector('.check').addEventListener('click', function () {
-  const guess = Number(document.querySelector('.guess').value);
+  // const guess = Number(document.querySelector('.guess').value);
+  const guess = document.querySelector('.guess').value;
+
   document.querySelector('.number').textContent = '🚔';
 
   if (!guess) {
@@ -36,7 +38,7 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage(`Stop Transmitting`);
   } else if (guess === displayCode[1]) {
     displayMessage(`Acknowledgement (OK)`);
-  } else if (guess === 1006) {
+  } else if (guess === `10-06`) {
     displayMessage(`Busy--Unless Urgent`);
   } else if (guess === 1007) {
     displayMessage(`Out of Service`);
