@@ -117,6 +117,7 @@ h1 {
 @media only screen and (max-width: 37.5em) {
   header {
     display: flex;
+    height: 45vh;
   }
 
   .reset {
@@ -126,10 +127,12 @@ h1 {
   main {
     display: flex;
     flex-direction: column;
+    height: 80vh;
   }
 
   .left {
     padding-top: 5rem;
+    width: fit-content;
   }
 
   .right {
@@ -137,5 +140,6 @@ h1 {
     flex-direction: row;
     justify-content: center;
     margin-top: 3rem;
+    width: fit-content;
   }
 }

@@ -1,12 +1,12 @@
 'use strict';
 
-const caution = 100;
-const unableToCopy = 101;
-const signalGood = 102;
+const caution = 1000;
+const unableToCopy = 1001;
+const signalGood = 1002;
 const accident = 1050;
 const ManGun = 1032;
 
-const codes = [103, 104, 105];
+const codes = [1003, 1004, 1005];
 // const description = [`Stop Transmitting`, `Acknowledgement(OK)`, `Relay`];
 const displayCode = [codes[0], codes[1], codes[2]];
 
@@ -36,15 +36,15 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage(`Stop Transmitting`);
   } else if (guess === displayCode[1]) {
     displayMessage(`Acknowledgement (OK)`);
-  } else if (guess === 106) {
+  } else if (guess === 1006) {
     displayMessage(`Busy--Unless Urgent`);
-  } else if (guess === 107) {
+  } else if (guess === 1007) {
     displayMessage(`Out of Service`);
-  } else if (guess === 108) {
+  } else if (guess === 1008) {
     displayMessage(`In service`);
   } else if (guess === displayCode[2]) {
     displayMessage(`Relay`);
-  } else if (guess === 109) {
+  } else if (guess === 1009) {
     displayMessage(`Repeat`);
   } else if (guess === 1010) {
     displayMessage(`Fight in progress`);
@@ -223,12 +223,12 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess === 1099) {
     displayMessage(`Records indicate wanted or stolen`);
   } else {
-    displayMessage(`Error with code ⛔ (ex. 1041 or 101).`);
+    displayMessage(`Error with code ⛔ (ex. 1041 or 1001).`);
   }
 });
 
 document.querySelector('.reset').addEventListener('click', function () {
-  displayMessage(`Enter 10 Code (ex. 1041 or 101).`);
+  displayMessage(`Enter 10 Code (ex. 1041 or 1001).`);
   document.querySelector('.guess').value = '';
   document.querySelector('.number').textContent = '?';
 });
